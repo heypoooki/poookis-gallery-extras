@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Poooki</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/pfp.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.css">
+</head>
+<body>
+    <div class="container" data-scroll-container>
+        <header>
+            <div class="header-content">
+                <img src="img/pfp.png" alt="Profile Picture" class="profile-pic">
+                <h1 class="reenie-beanie-regular header-title">Poooki's Gallery</h1>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="selected"><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-links">
+            <a href="https://twitter.com/poooki_" target="_blank"><img src="img/tt.png" alt="Twitter"></a>
+            <a href="https://www.instagram.com/gabews2/" target="_blank"><img src="img/insta.png" alt="Instagram"></a>
+            <a href="https://www.patreon.com/poooki_" target="_blank"><img src="img/patreon.png" alt="Patreon"></a>
+        </div>
+        <main>
+            <section class="portfolio-ben10">
+                <div class="portfolio-ben10-grid">
+                    <!-- Adicione suas imagens do portfólio aqui -->
+                    <img src="thumbnail/herotime/benio_thumbnail.jpg" data-full="img/herotime/benio.png" alt="Ben10 Image 1">
+                    <img src="thumbnail/herotime/chama_thumbnail.jpg" data-full="img/herotime/chama.png" alt="Ben10 Image 2">
+                    <img src="thumbnail/herotime/bala_thumbnail.jpg" data-full="img/herotime/bala.png" alt="Ben10 Image 3">
+                    <img src="thumbnail/herotime/clone_thumbnail.jpg" data-full="img/herotime/clone.png" alt="Ben10 Image 4">
+                    <img src="thumbnail/herotime/iguana_thumbnail.jpg" data-full="img/herotime/iguana.png" alt="Ben10 Image 5">
+                    <img src="thumbnail/herotime/chocante_thumbnail.jpg" data-full="img/herotime/chocante.png" alt="Ben10 Image 6">
+                    <img src="thumbnail/herotime/lobisben_thumbnail.jpg" data-full="img/herotime/lobisben.png" alt="Ben10 Image 7">
+                    <img src="thumbnail/herotime/cipo_thumbnail.jpg" data-full="img/herotime/cipo.png" alt="Ben10 Image 8">
+                    <img src="thumbnail/herotime/herotime_thumbnail.jpg" data-full="img/herotime/herotime.png" alt="Ben10 Image 9">
+                </div>
+            </section>
+            <h2 class="reenie-beanie-regular about-title">Extras</h2>
+            <section class="portfolio-ben10-3">
+                <div class="portfolio-ben10-grid-3">
+                    <!-- Adicione suas imagens do portfólio aqui -->
+                    <img src="img/herotime/extras/1.png" data-full="img/herotime/extras/1.png">
+                    <img src="img/herotime/extras/2.png" data-full="img/herotime/extras/2.png">
+                    <img src="img/herotime/extras/5.png" data-full="img/herotime/extras/5.png">
+                    <img src="img/herotime/extras/3.png" data-full="img/herotime/extras/3.png">
+                    <img src="img/herotime/extras/4.png" data-full="img/herotime/extras/4.png">
+                </div>
+            </section>
+            <div class="about-content">
+                <h2 class="reenie-beanie-regular about-title">Another Projects</h2>
+                <section class="portfolio-ben10-2">
+                    <div class="portfolio-ben10-grid-2">
+                        <!-- Adicione suas imagens do portfólio aqui -->
+                        <img src="thumbnail/herotime/magia_thumbnail.jpg" data-full="img/herotime/magia.png" alt="Ben10Alt Image 1">
+                        <img src="thumbnail/herotime/classico_thumbnail.jpg" data-full="img/herotime/classico.png" alt="Ben10Alt Image 2">
+                        <img src="thumbnail/herotime/ben23_thumbnail.jpg" data-full="img/herotime/ben23.png" alt="Ben10Alt Image 3">
+                        <img src="thumbnail/herotime/lobisbao_thumbnail.jpg" data-full="img/herotime/lobisbao.png" alt="Ben10Alt Image 4">
+                        <img src="thumbnail/herotime/wildvine23_thumbnail.jpg" data-full="img/herotime/wildvine23.png" alt="Ben10Alt Image 5">
+                        <img src="thumbnail/herotime/clone23_thumbnail.jpg" data-full="img/herotime/clone23.png" alt="Ben10Alt Image 6">
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Copyright ℗ 2024 - All rights reserved - Poooki's Portfolio</p>
+        </footer>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="prev">&lt;</span>
+        <span class="next">&gt;</span>
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/elevatezoom-plus@1.1.21/jquery.elevatezoom.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
